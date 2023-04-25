@@ -2,10 +2,22 @@
     "name": "com.hybelstudio.state-machines",
     "displayName": "State Machines",
     "version": "1.0.0",
-    "description": "Two finite state machines to use in Unity. One state machine which requires you to manually change its state and one which automatically checks a series of provided conditions to determine which state it should be in.",
+    "description": "A few different finite state machines tightly integrated with Unity which allows you to quickly get a code-based state machine up an running quickly.",
     "unity": "2021.3",
     "author": {
         "name": "Brage Ingebrigtsen",
         "email": "hybelstudio@gmail.com"
-    }
+    },
+    "samples": [
+        {
+            "displayName": "Passive State Machine",
+            "description": "Contains a simple Main Menu scene which uses the PassiveStateMachine to track which menu you are in.",
+            "path": "Samples~/PassiveStateMachineExample"
+        },
+        {
+            "displayName": "Active State Machine",
+            "description": "Contains a simple scene with a moving cube which uses the ActiveStateMachine to decide when to change move directions.",
+            "path": "Samples~/ActiveStateMachineExample"
+        }
+    ]
 }
