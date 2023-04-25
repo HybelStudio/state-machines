@@ -1,2 +1,2 @@
 # state-machines
- Two finite state machines to use in Unity. One state machine which requires you to manually change its state and one which automatically checks a series of provided conditions to determine which state it should be in.
+ A few different finite state machines tightly integrated with Unity which allows you to quickly get a code-based state machine up an running quickly.
